@@ -1,40 +1,108 @@
-# Security Policy
+# 🔐 Security Policy
 
-## Maintenance Status
+<div align="center">
 
-This repository is part of a curated Computer Engineering project collection and is maintained in a finalized and stable state. The project is preserved as a complete and authoritative record, with its scope and contents intentionally fixed to ensure long-term academic and professional reference.
+<img width="180" src="./assets/security.png" />
 
-## Supported Versions
+# 🚗 Car Rental System — Security Policy
 
-As a finalized project, only the version listed below is authoritative:
+### Política de seguridad y reporte de vulnerabilidades 🚀
 
-| Version | Supported |
-| ------- | --------- |
-| 1.0.0   | Yes       |
+<p align="center">
+  <b>Car Rental System</b> es un sistema web de gestión de renta de vehículos desarrollado con PHP y MySQL.  
+  Esta política describe cómo reportar vulnerabilidades y las mejores prácticas de seguridad del proyecto.
+</p>
 
-## Vulnerability Reporting Protocol
-
-In accordance with established academic and professional standards for security disclosure, security-related observations associated with this project are documented through formal scholarly channels.
-
-To document a security concern, communication is facilitated with the project curators:
-  - **Curator**: [Amey Thakur](https://github.com/Amey-Thakur)
-  - **Method**: Reports are submitted via the repository’s [GitHub Issues](https://github.com/Amey-Thakur/CAR-RENTAL-SYSTEM/issues) interface to formally record security-related findings.
-
-Submissions include:
-  1. A precise and technically accurate description of the identified issue.
-  2. Demonstrable steps or technical evidence sufficient to contextualize the finding.
-  3. An explanation of the issue’s relevance within the defined scope of the project.
-
-## Implementation Context: PHP & MySQL
-This project is implemented using the PHP language and MySQL database, as defined by the project’s technical scope.
-
--   **Execution Environment**: Execution occurs within standard LAMP/WAMP server environments (e.g., XAMPP).
--   **Scope Limitation**: This policy applies exclusively to the source code and academic materials contained within this repository and does not extend to the web server, database engine, or platform-level security guarantees.
-
-## Technical Integrity Statement
-
-This repository is preserved as a fixed academic and engineering project. Security-related submissions are recorded for documentation and contextual reference and do not imply active monitoring, response obligations, or subsequent modification of the repository.
+</div>
 
 ---
 
-*This document defines the security posture of a finalized Computer Engineering project.*
+# 📌 Supported Versions
+
+Las siguientes versiones del sistema actualmente reciben actualizaciones de seguridad:
+
+| Version | Supported |
+|----------|------------|
+| 2.x | ✅ |
+| 1.x | ⚠️ Mantenimiento limitado |
+| < 1.0 | ❌ |
+
+---
+
+# 🛡️ Reportar una Vulnerabilidad
+
+Si encuentras una vulnerabilidad o problema de seguridad, por favor repórtalo de manera responsable.
+
+## 📧 Contacto de Seguridad
+
+- ✉️ Email: `security@carrentalsystem.dev`
+- 👨‍💻 Developer: **Isai Reyes**
+- 💻 Full Stack Developer
+
+---
+
+# ⚠️ Recomendaciones de Seguridad
+
+Para ejecutar el sistema de manera segura se recomienda:
+
+- 🔒 Cambiar credenciales por defecto
+- 🔑 Utilizar contraseñas seguras
+- 🛠 Mantener PHP y MySQL actualizados
+- 🚫 No exponer archivos `.env` o configuraciones sensibles
+- 🔐 Implementar HTTPS en producción
+- 📦 Validar y sanitizar entradas de usuario
+- 🧱 Utilizar prepared statements para consultas SQL
+- 📂 Restringir permisos de escritura en el servidor
+- 🧹 Eliminar archivos innecesarios antes del despliegue
+
+---
+
+# 🔍 Buenas Prácticas Implementadas
+
+El sistema incluye:
+
+- ✅ Autenticación de usuarios
+- ✅ Gestión de sesiones
+- ✅ Protección básica contra SQL Injection
+- ✅ Validación de formularios
+- ✅ Arquitectura organizada para backend y frontend
+- ✅ Manejo de roles administrativos
+
+---
+
+# 🚨 Vulnerabilidades Conocidas
+
+Actualmente no existen vulnerabilidades críticas conocidas públicamente.
+
+Si detectas una vulnerabilidad:
+
+1. No publiques exploits públicamente.
+2. Reporta el problema por correo.
+3. Espera confirmación antes de divulgar detalles.
+
+---
+
+# 🧪 Entorno Recomendado
+
+| Tecnología | Versión Recomendada |
+|-------------|---------------------|
+| PHP | 8.x |
+| MySQL | 8.x |
+| Apache | 2.4+ |
+| XAMPP | Última versión |
+| Navegador | Chrome / Edge / Firefox |
+
+---
+
+# 🔐 Configuración Recomendada
+
+## Variables sensibles
+
+```env
+DB_HOST=localhost
+DB_DATABASE=carrental
+DB_USERNAME=root
+DB_PASSWORD=your_password
+
+APP_ENV=production
+APP_DEBUG=false
