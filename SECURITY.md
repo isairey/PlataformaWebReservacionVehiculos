@@ -35,7 +35,7 @@ Si encuentras una vulnerabilidad o problema de seguridad, por favor repórtalo d
 
 ## 📧 Contacto de Seguridad
 
-- ✉️ Email: `security@carrentalsystem.dev`
+- ✉️ Email: `Developer.SR.IRP@gmail.com`
 - 👨‍💻 Developer: **Isai Reyes**
 - 💻 Full Stack Developer
 
