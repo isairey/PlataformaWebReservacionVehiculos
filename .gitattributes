@@ -1,0 +1,41 @@
+# Car Rental Database Management System - Academic Repository
+# Professional .gitattributes for scholarly archiving
+
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Ensure text and source files use LF on checkout
+*.md text eol=lf
+*.php text eol=lf
+*.sql text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.cff text eol=lf
+*.json text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+
+# Explicitly mark binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+
+# Improve diff handling
+*.md text diff=markdown
+*.php text diff=php
+*.sql text diff=sql
+
+# Language Detection - Focus on Source Code
+docs/** linguist-vendored
+Mini-Project/** linguist-vendored
+CITATION.cff linguist-vendored
+codemeta.json linguist-vendored
+LICENSE linguist-vendored
+SECURITY.md linguist-vendored

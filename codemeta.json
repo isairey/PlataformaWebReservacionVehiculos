@@ -1,0 +1,45 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Car Rental System",
+    "description": "A comprehensive web-based Car Rental Database Management System facilitating seamless vehicle booking, fleet management, and administrative oversight. This project serves as a scholarly collection project for database management systems education.",
+    "identifier": "CAR-RENTAL-SYSTEM",
+    "license": "https://spdx.org/licenses/MIT.html",
+    "programmingLanguage": [
+        "PHP",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Amey",
+            "familyName": "Thakur",
+            "id": "https://orcid.org/0000-0001-5644-1575",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        }
+    ],
+    "dateReleased": "2021-01-19",
+    "codeRepository": "https://github.com/Amey-Thakur/CAR-RENTAL-SYSTEM",
+    "developmentStatus": "complete",
+    "runtimePlatform": [
+        "Apache",
+        "MySQL",
+        "PHP 7.x"
+    ],
+    "applicationCategory": "Educational Software",
+    "keywords": [
+        "Car Rental",
+        "PHP",
+        "MySQL",
+        "DBMS",
+        "Database Management",
+        "Web Application",
+        "Computer Engineering"
+    ]
+}
