@@ -158,7 +158,7 @@ Además, el proyecto fue publicado como artículo académico en IJRASET, demostr
 # 📂 Estructura del proyecto
 
 ```bash
-CAR-RENTAL-SYSTEM/
+PlataformaWebReservacionVehiculos/
 │
 ├── docs/                      # Documentación técnica
 ├── Mini-Project/              # Recursos académicos
@@ -194,7 +194,7 @@ CAR-RENTAL-SYSTEM/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/Amey-Thakur/CAR-RENTAL-SYSTEM.git
+git clone https://github.com/isairey/PlataformaWebReservacionVehiculos.git
 ```
 
 ---
@@ -210,7 +210,7 @@ Source Code/
 Hacia:
 
 ```bash
-xampp/htdocs/carrental/
+xampp/htdocs/PlataformaWebReservacionVehiculos/
 ```
 
 ---
